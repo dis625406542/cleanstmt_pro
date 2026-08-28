@@ -1,235 +1,209 @@
-# CleanStmt — AI 驱动的财务文档转换工具
+# CleanStmt — AI 财务文档 OCR 与转换工具
 
-> **秒级将银行对账单、发票、收据转换为干净的 Excel、CSV 和会计软件格式**
+<p align="center">
+  <a href="https://www.cleanstmt.com">
+    <img src="https://www.cleanstmt.com/logo.png" alt="CleanStmt logo" width="96" />
+  </a>
+</p>
 
-[![官网](https://img.shields.io/badge/官网-cleanstmt.com-blue)](https://www.cleanstmt.com)
-[![免费版本](https://img.shields.io/badge/定价-免费版可用-green)](https://www.cleanstmt.com)
-[![AI 驱动](https://img.shields.io/badge/AI-Claude%20Vision-purple)](https://www.cleanstmt.com)
+<h3 align="center">把财务文档转换为干净、结构化的数据。</h3>
 
----
+<p align="center">
+  将银行对账单、信用卡账单、发票和收据转换为 Excel、CSV 及会计软件可用的格式，无需手动重复录入，也没有混乱的合并单元格。
+</p>
 
-## 🎯 CleanStmt 是什么?
+<p align="center">
+  <a href="https://www.cleanstmt.com">试用 CleanStmt</a> ·
+  <a href="https://www.cleanstmt.com/pricing">查看价格</a> ·
+  <a href="mailto:support@cleanstmt.com">联系客服</a>
+</p>
 
-CleanStmt 是一款 **AI 驱动的财务文档转换工具**，专为会计师、记账员、财务团队和小企业主打造，帮助他们摆脱从 PDF 对账单手动重新输入交易数据的困境。
+![CleanStmt 产品预览](https://www.cleanstmt.com/picture1.png)
 
-与通用 PDF 转换器产生的乱七八糟的电子表格（合并单元格、列错位）不同，CleanStmt 使用 **Claude AI Vision OCR** 理解财务文档的结构，**逐位数字**提取交易数据，绝不猜测。
+[![官网](https://img.shields.io/badge/Website-cleanstmt.com-C4612F)](https://www.cleanstmt.com)
+[![免费版](https://img.shields.io/badge/Pricing-Free%20tier%20available-2E9B61)](https://www.cleanstmt.com/pricing)
+[![AI OCR](https://img.shields.io/badge/AI-OCR-8B5CF6)](https://www.cleanstmt.com)
 
-🌐 **立即试用：** [www.cleanstmt.com](https://www.cleanstmt.com)
+## CleanStmt 是什么？
 
----
+CleanStmt 是一款基于浏览器的财务文档 OCR 与转换工具，面向会计师、记账员、财务团队和小企业主。
 
-## 🚀 核心功能
+上传财务 PDF 或图片后，CleanStmt 会提取结构化交易数据，方便你进行审核、对账、分析，以及导入会计软件。CleanStmt 重点解决通用 PDF 转换器经常处理不好的问题：在提取数据的同时尽可能保留财务表格的含义和结构。
 
-### ✨ AI 智能 OCR
-- **逐位数字提取** — 准确读取交易表格，不猜测不确定的值
-- 处理多行描述、换行文本和复杂的对账单布局
-- 支持 **原生 PDF** 和 **扫描图片**
+## 为什么选择 CleanStmt？
 
-### 📊 干净的结构化输出
-- **无合并单元格** — 每笔交易保持单行
-- 日期格式为 Excel 日期（而非文本字符串）
-- 金额为数字（而非带货币符号的文本）
-- 立即可用于 **数据透视表、VLOOKUP 和对账**
+### 为财务表格设计的 AI OCR
 
-### 🏦 广泛的银行支持
-- 已优化支持 **38+ 主流银行**，包括：
-  - Chase、美国银行、富国银行、花旗、Capital One
-  - US Bank、PNC、TD Bank、Truist、BMO Harris
-  - HSBC、巴克莱、高盛 Marcus、Discover、美国运通
+CleanStmt 不只是复制 PDF 中看到的文字，而是针对财务文档布局进行识别，将日期、描述、借方、贷方、金额、余额和其他交易字段整理到稳定的列中。
 
-### 💾 多种导出格式
-一次上传，导出为：
-- **Excel** (.xlsx)
-- **CSV** (.csv)
-- **QuickBooks** (.qbo, .iif)
-- **Quicken** (.qif)
-- **OFX** (.ofx)
-- **Xero CSV**、**Sage CSV**、**Tally ERP**
+- 支持原生 PDF 和扫描文档图片
+- 还原换行和多行交易描述
+- 逐位读取金额
+- 对不确定的值保留待审核状态，而不是静默猜测
+- 保持交易行与原始列的对应关系
 
-### ⚡ 快速且隐私保护
-- 拖放上传，**30 秒内获得结果**
-- 批量处理多个对账单
-- 内存处理，**1 小时后自动删除** — 不长期保留数据
+### 干净的输出，没有合并单元格
 
----
+每笔交易都会导出为独立的一行。日期、描述、金额、借方、贷方和余额保持在清晰、可使用的列中。
 
-## 🆓 定价
+导出的数据可以直接用于：
+
+- Excel 公式和数据透视表
+- 排序和筛选
+- 银行对账
+- 现金流分析
+- QuickBooks 及其他会计工作流
+
+### 多种会计软件友好格式
+
+可以导出为：
+
+- Excel（`.xlsx`）
+- CSV（`.csv`）
+- QuickBooks 格式（`.qbo`、`.iif`）
+- Quicken 格式（`.qif`）
+- OFX（`.ofx`）
+- Xero CSV
+- Sage 50 UK CSV
+- Tally 兼容 CSV
+
+### 支持常见银行版式
+
+CleanStmt 已针对 38 家以上主要银行和金融机构的文档进行优化，包括 Chase、Bank of America、Wells Fargo、Citi、Capital One、U.S. Bank、PNC、TD Bank、Truist、HSBC、Barclays、Discover、American Express 等。
+
+官网提供银行专属转换页面和使用说明：
+
+[浏览银行转换工具](https://www.cleanstmt.com/convert)
+
+### 面向隐私保护的处理流程
+
+- 文件通过加密连接传输
+- 财务文档在内存中处理
+- 上传文件会在处理窗口结束后自动删除
+- 不出售文档，也不用于广告
+- 正常处理流程不需要人工审核
+
+详情请查看[隐私政策](https://www.cleanstmt.com/privacy)。
+
+## 使用流程
+
+1. **上传**银行对账单、发票、收据或财务图片。
+2. **提取**结构化字段和交易数据。
+3. **审核**结果，并修正需要调整的内容。
+4. **导出**为 Excel、CSV、QBO、QIF、OFX、Xero、Sage 50 UK 或 Tally 格式。
+5. **导入**电子表格或会计软件工作流。
+
+## 支持的输入文档
+
+- 银行对账单 PDF
+- 信用卡账单
+- 扫描财务文档
+- 发票 PDF 和图片
+- 收据及费用凭证
+- PNG、JPG、JPEG 表格截图
+- 多页 PDF 对账单
+
+## 价格
 
 ### 免费版
-- ✅ **无需信用卡**
-- ✅ 有使用限制
-- ✅ 包含所有核心功能
-- ✅ 适合偶尔使用
 
-### Pro 订阅 ($19/月)
-- ✅ **每月 500 次转换**（每月重置，不累计）
-- ✅ 优先处理
-- ✅ 高级导出格式（Xero、Sage、QBO）
-- ✅ 批量处理
-- ✅ API 访问 *（即将推出）*
+- 免费试用
+- 无需信用卡即可开始
+- 适合偶尔使用的有限额度
+- 包含核心提取和审核流程
 
-👉 **免费开始：** [cleanstmt.com](https://www.cleanstmt.com)
+### Professional — $19/月
 
----
+- **每个计费月 500 个文档页**
+- 每处理 1 个文档页，消耗 1 个页面额度
+- 例如：一个 10 页 PDF 消耗 10 个页面额度
+- 页面额度每月重置，未使用额度不累计
+- 优先处理
+- 支持多个文档的批量处理
+- 支持 Xero、Sage 50 UK、QBO、QIF、OFX 和 IIF 等高级会计格式
 
-## 🎬 工作原理
+查看当前方案：[cleanstmt.com/pricing](https://www.cleanstmt.com/pricing)
 
-1. **上传** — 拖放你的银行对账单 PDF 或图片
-2. **提取** — AI 读取并结构化你的交易数据
-3. **导出** — 下载干净的 Excel、CSV 或会计格式文件
-4. **导入** — 可直接用于 QuickBooks、Xero 或任何电子表格工具
+## 适用人群
 
----
+### 会计师和记账员
 
-## 🧑‍💼 谁在使用 CleanStmt？
-
-### 会计师 & 记账员
-- 对账客户银行账户
-- 将历史交易导入 QuickBooks 或 Xero
-- 高效转换来自多家银行的对账单
+将客户对账单转换为结构化交易行，用于对账、分类、报表和会计软件导入。
 
 ### 小企业主
-- 从 PDF 对账单分析现金流
-- 准备税务记录
-- 跨多个账户跟踪费用
+
+把历史 PDF 对账单和收据转换为可使用的电子表格，用于现金流分析、费用跟踪和税务准备。
 
 ### 财务团队
-- 处理费用报告和供应商发票
-- 整合多银行交易数据
-- 自动化财务报告工作流
+
+统一来自不同银行的文档格式，减少月末结账期间的重复数据录入。
 
 ### 税务专业人士
-- 为客户整理年度财务记录
-- 批量转换多年的 PDF 对账单
-- 准备符合审计要求的交易日志
 
----
+整理财务记录，将历史对账单转换为更容易审核和共享的文件。
 
-## 🔥 为什么选择 CleanStmt？
+## CleanStmt 与通用 PDF 转换器对比
 
 | 功能 | 通用 PDF 转换器 | CleanStmt |
-|---------|----------------------|-----------|
-| **合并单元格** | ❌ 破坏公式 | ✅ 单行交易 |
-| **AI OCR 精度** | ❌ 猜测数值 | ✅ 逐位数字提取 |
-| **多格式导出** | ❌ 仅 Excel | ✅ Excel、CSV、QBO、QIF、OFX、IIF |
-| **银行优化** | ❌ 通用解析 | ✅ 38+ 银行优化 |
-| **会计集成** | ❌ 需手动重新格式化 | ✅ QuickBooks 即用输出 |
-| **数据隐私** | ⚠️ 无限期存储 | ✅ 1 小时后自动删除 |
+|---|---|---|
+| 财务表格识别 | 通常以文字复制为主 | 针对财务表格设计 |
+| 扫描账单 OCR | 根据工具而异 | 内置于提取流程 |
+| 交易行 | 可能拆行或合并 | 每笔交易独立一行 |
+| 电子表格结构 | 可能出现合并单元格 | 干净、独立的列 |
+| 会计软件导出 | 通常还要手动整理 | 支持 Excel、CSV、QBO、QIF、OFX、Xero、Sage 和 Tally |
+| 不确定数值 | 可能静默猜测 | 保留并提示审核 |
+| 多页文档 | 取决于转换器 | 支持多页对账单处理 |
+
+## 使用示例
+
+- 将 Chase 对账单 PDF 转换为 Excel，用于银行对账
+- 将 Wells Fargo 对账单转换为 CSV，用于记账
+- 提取 American Express 交易，用于费用分析
+- 将扫描收据转换为电子表格行
+- 为 QuickBooks 工作流准备 QBO 或 IIF 文件
+- 将历史对账单转换为统一格式，用于税务准备
+
+## 常见问题
+
+### CleanStmt 免费吗？
+
+CleanStmt 提供有限额度的免费版本，无需信用卡即可试用。付费用户可以升级到 $19/月的 Professional 方案。
+
+### Professional 方案如何计算使用量？
+
+Professional 方案按文档页数计算。每处理一页 PDF 或图片，就消耗一个页面额度；因此一个 10 页 PDF 会消耗 10 个额度。未使用的页面额度每月重置，不累计到下个月。
+
+### 可以处理扫描版对账单吗？
+
+可以。CleanStmt 通过 OCR 支持原生 PDF、扫描 PDF 和文档图片。
+
+### 可以导入 QuickBooks 吗？
+
+可以。根据你的工作流，可以导出 QBO 或 IIF 文件，也可以使用 CSV 完成兼容的 QuickBooks 导入流程。
+
+### CleanStmt 会保留交易金额吗？
+
+提取流程会逐位读取金额，并尽量避免猜测。将财务数据导入其他软件前，请务必对照原始文档审核结果。
+
+### CleanStmt 会保存上传的文档吗？
+
+上传文件仅用于转换处理，并会在处理窗口结束后自动删除。详情请查看[隐私政策](https://www.cleanstmt.com/privacy)。
+
+## 相关链接
+
+- **官网：** [https://www.cleanstmt.com](https://www.cleanstmt.com)
+- **价格：** [https://www.cleanstmt.com/pricing](https://www.cleanstmt.com/pricing)
+- **银行转换工具：** [https://www.cleanstmt.com/convert](https://www.cleanstmt.com/convert)
+- **客服：** [support@cleanstmt.com](mailto:support@cleanstmt.com)
+- **隐私政策：** [https://www.cleanstmt.com/privacy](https://www.cleanstmt.com/privacy)
+- **服务条款：** [https://www.cleanstmt.com/terms](https://www.cleanstmt.com/terms)
+
+## 许可证
+
+CleanStmt 是专有网页服务。本仓库包含产品文档和宣传材料，不包含生产环境的私有应用源代码。
 
 ---
 
-## 🛠️ 技术栈
+为希望减少电子表格清理时间、专注于财务数据本身的人而打造。
 
-- **前端：** Next.js 14、React、TailwindCSS
-- **AI 引擎：** Claude Vision API (Anthropic)
-- **导出库：** `xlsx-js-style`、`docx`、自定义序列化器
-- **托管：** Vercel（边缘函数）
-- **数据库：** Supabase（用户管理、订阅跟踪）
-
----
-
-## 📖 使用场景
-
-### 1. 银行对账单转换
-上传 Chase、富国银行或美国银行 PDF → 获得包含日期、描述、金额列的干净 Excel。
-
-### 2. 信用卡对账单处理
-转换美国运通、花旗或 Capital One 对账单 → 导出为 QuickBooks 或 Xero CSV。
-
-### 3. 发票 & 收据提取
-从供应商发票中提取明细项 → 用于费用跟踪的结构化数据。
-
-### 4. 多银行对账
-处理来自 5+ 家银行的对账单 → 统一 CSV 用于现金流分析。
-
-### 5. 税务准备
-转换多年的 PDF 对账单 → 几分钟内生成符合审计要求的交易日志。
-
----
-
-## 🌐 支持的格式
-
-### 输入格式
-- PDF（原生和扫描）
-- PNG、JPG、JPEG（图片）
-- 多页文档
-
-### 输出格式
-- **Excel** (.xlsx) — 带标题格式化，无合并单元格
-- **CSV** — UTF-8 编码，标准分隔符
-- **QuickBooks** (.qbo, .iif) — 可直接导入
-- **Quicken** (.qif) — OFX 兼容
-- **Xero CSV** — 匹配 Xero 交易导入格式
-- **Sage 50 UK CSV** — 银行对账格式
-- **Tally ERP** — 会计分类账格式
-
----
-
-## 🔒 隐私 & 安全
-
-- ✅ **不长期存储数据** — 文件 1 小时后自动删除
-- ✅ **内存处理** — 数据不写入持久存储
-- ✅ **HTTPS 加密** — 所有上传在传输中加密
-- ✅ **不与第三方共享** — 你的文档绝不出售或共享
-- ✅ **符合财务数据法规**
-
----
-
-## 🚧 路线图
-
-- [ ] 开发者 API 访问
-- [ ] 批量处理仪表板
-- [ ] 自定义导出模板
-- [ ] 集成 Zapier & Make
-- [ ] 移动应用（iOS & Android）
-- [ ] 多语言支持
-
----
-
-## 🙋 常见问题
-
-### CleanStmt 是免费的吗？
-是的，我们提供 **有使用限制的免费版本**。无需信用卡即可开始。升级到 Pro（$19/月）可无限次转换。
-
-### 你们支持哪些银行？
-我们支持 38+ 主流银行，包括 Chase、美国银行、富国银行、花旗、Capital One、US Bank、PNC、TD Bank、Truist 等。完整列表见 [cleanstmt.com/banks](https://www.cleanstmt.com)。
-
-### 可以转换扫描的对账单吗？
-可以！我们的 AI OCR 支持原生 PDF 和扫描图片。
-
-### 你们会存储我的数据吗？
-不会。文件在内存中处理，**1 小时后自动删除**。我们不保留你的财务文档。
-
-### 可以将结果导入 QuickBooks 吗？
-可以！直接导出为 **QBO** 或 **IIF** 格式，无缝导入 QuickBooks。
-
-### 提取的准确度如何？
-我们的 AI **逐位数字**读取交易数据，不猜测不确定的值。为获得最佳效果，请使用清晰的高分辨率 PDF。
-
----
-
-## 📧 联系 & 支持
-
-- **官网：** [cleanstmt.com](https://www.cleanstmt.com)
-- **邮箱：** support@cleanstmt.com
-- **GitHub：** [github.com/dis625406542/cleanstmt_pro](https://github.com/dis625406542/cleanstmt_pro)
-
----
-
-## 📜 许可证
-
-本项目为专有软件。此仓库中的代码仅用于演示和文档目的。
-
----
-
-## 🌟 给这个仓库点个 Star
-
-如果你觉得 CleanStmt 有用，请 **给这个仓库点 Star** 帮助更多人发现它！
-
-[![GitHub stars](https://img.shields.io/github/stars/dis625406542/cleanstmt_pro?style=social)](https://github.com/dis625406542/cleanstmt_pro)
-
----
-
-**由独立开发者打造。被全球会计专业人士使用。**
-
-🚀 **免费试用 CleanStmt：** [www.cleanstmt.com](https://www.cleanstmt.com)
+**免费试用 CleanStmt：** [www.cleanstmt.com](https://www.cleanstmt.com)

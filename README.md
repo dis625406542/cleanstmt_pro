@@ -1,235 +1,209 @@
-# CleanStmt — AI-Powered Financial Document Converter
+# CleanStmt — AI Financial Document OCR & Converter
 
-> **Convert bank statements, invoices, and receipts to clean Excel, CSV, and accounting formats in seconds.**
+<p align="center">
+  <a href="https://www.cleanstmt.com">
+    <img src="https://www.cleanstmt.com/logo.png" alt="CleanStmt logo" width="96" />
+  </a>
+</p>
 
-[![Website](https://img.shields.io/badge/Website-cleanstmt.com-blue)](https://www.cleanstmt.com)
-[![Free Tier](https://img.shields.io/badge/Pricing-Free%20Tier%20Available-green)](https://www.cleanstmt.com)
-[![AI Powered](https://img.shields.io/badge/AI-Claude%20Vision-purple)](https://www.cleanstmt.com)
+<h3 align="center">Turn financial documents into clean, structured data.</h3>
 
----
+<p align="center">
+  Convert bank statements, credit card statements, invoices, and receipts into Excel, CSV, and accounting-ready formats — without manual re-entry or merged cells.
+</p>
 
-## 🎯 What is CleanStmt?
+<p align="center">
+  <a href="https://www.cleanstmt.com">Try CleanStmt</a> ·
+  <a href="https://www.cleanstmt.com/pricing">View pricing</a> ·
+  <a href="mailto:support@cleanstmt.com">Contact support</a>
+</p>
 
-CleanStmt is an **AI-powered financial document converter** built for accountants, bookkeepers, finance teams, and small business owners who are tired of manually re-entering transaction data from PDF statements.
+![CleanStmt product preview](https://www.cleanstmt.com/picture1.png)
 
-Unlike generic PDF converters that produce messy spreadsheets with merged cells and broken columns, CleanStmt uses **Claude AI Vision OCR** to understand the structure of financial documents and extract transaction data **digit by digit** with no guessing.
+[![Website](https://img.shields.io/badge/Website-cleanstmt.com-C4612F)](https://www.cleanstmt.com)
+[![Free tier](https://img.shields.io/badge/Pricing-Free%20tier%20available-2E9B61)](https://www.cleanstmt.com/pricing)
+[![AI OCR](https://img.shields.io/badge/AI-OCR-8B5CF6)](https://www.cleanstmt.com)
 
-🌐 **Try it now:** [www.cleanstmt.com](https://www.cleanstmt.com)
+## What is CleanStmt?
 
----
+CleanStmt is a browser-based financial document OCR and conversion tool for accountants, bookkeepers, finance teams, and small business owners.
 
-## 🚀 Key Features
+Upload a financial PDF or image and get structured transaction data that is easier to review, reconcile, analyze, and import into accounting software. CleanStmt is designed for the part of the workflow that generic PDF converters often get wrong: preserving the meaning and structure of financial tables.
 
-### ✨ AI-Powered OCR
-- **Digit-by-digit extraction** — reads transaction tables accurately without guessing uncertain values
-- Handles multi-line descriptions, wrapped text, and complex statement layouts
-- Works with both **native PDFs** and **scanned images**
+## Why CleanStmt?
 
-### 📊 Clean Structured Output
-- **No merged cells** — every transaction stays in a single row
-- Dates formatted as Excel dates (not text strings)
-- Amounts as numbers (not text with currency symbols)
-- Ready for **pivot tables, VLOOKUP, and reconciliation** immediately
+### AI OCR built for financial tables
 
-### 🏦 Wide Bank Support
-- Optimized for **38+ major banks** including:
-  - Chase, Bank of America, Wells Fargo, Citi, Capital One
-  - US Bank, PNC, TD Bank, Truist, BMO Harris
-  - HSBC, Barclays, Goldman Sachs Marcus, Discover, American Express
+CleanStmt is designed to recognize financial document layouts rather than simply copy visible text. It extracts dates, descriptions, debits, credits, amounts, balances, and other transaction fields into consistent columns.
 
-### 💾 Multiple Export Formats
-Export one upload to:
-- **Excel** (.xlsx)
-- **CSV** (.csv)
-- **QuickBooks** (.qbo, .iif)
-- **Quicken** (.qif)
-- **OFX** (.ofx)
-- **Xero CSV**, **Sage CSV**, **Tally ERP**
+- Handles native PDFs and scanned document images
+- Reconstructs wrapped and multi-line descriptions
+- Reads monetary values digit by digit
+- Leaves uncertain values for review instead of silently guessing
+- Keeps transaction rows aligned with their original columns
 
-### ⚡ Fast & Private
-- Drag-and-drop upload with **results in under 30 seconds**
-- Batch processing for multiple statements
-- In-memory processing with **auto-delete after 1 hour** — no long-term data retention
+### Clean output with no merged cells
 
----
+Every transaction is exported as an independent row. Dates, descriptions, amounts, debits, credits, and balances stay in separate, usable columns.
 
-## 🆓 Pricing
+That means your output is ready for:
 
-### Free Tier
-- ✅ **No credit card required**
-- ✅ Usage limits apply
-- ✅ All core features included
-- ✅ Perfect for occasional use
+- Excel formulas and pivot tables
+- Sorting and filtering
+- Bank reconciliation
+- Cash-flow analysis
+- QuickBooks and other accounting workflows
 
-### Pro Subscription ($19/month)
-- ✅ **500 conversions per month** (resets monthly, does not roll over)
-- ✅ Priority processing
-- ✅ Advanced export formats (Xero, Sage, QBO)
-- ✅ Batch processing
-- ✅ API access *(coming soon)*
+### Multiple accounting-friendly formats
 
-👉 **Start free:** [cleanstmt.com](https://www.cleanstmt.com)
+Export your result as:
 
----
+- Excel (`.xlsx`)
+- CSV (`.csv`)
+- QuickBooks formats (`.qbo`, `.iif`)
+- Quicken format (`.qif`)
+- OFX (`.ofx`)
+- Xero CSV
+- Sage 50 UK CSV
+- Tally-compatible CSV
 
-## 🎬 How It Works
+### Support for common bank layouts
 
-1. **Upload** — Drag and drop your bank statement PDF or image
-2. **Extract** — AI reads and structures your transaction data
-3. **Export** — Download clean Excel, CSV, or accounting format files
-4. **Import** — Ready for QuickBooks, Xero, or any spreadsheet tool
+CleanStmt is optimized for documents from more than 38 major banks and financial institutions, including Chase, Bank of America, Wells Fargo, Citi, Capital One, U.S. Bank, PNC, TD Bank, Truist, HSBC, Barclays, Discover, American Express, and others.
 
----
+Bank-specific conversion pages and guidance are available on the website:
 
-## 🧑‍💼 Who Uses CleanStmt?
+[Browse bank converters](https://www.cleanstmt.com/convert)
 
-### Accountants & Bookkeepers
-- Reconciling client bank accounts
-- Importing historical transactions into QuickBooks or Xero
-- Converting statements from multiple banks efficiently
+### Designed for privacy-conscious workflows
 
-### Small Business Owners
-- Analyzing cash flow from PDF statements
-- Preparing tax records
-- Tracking expenses across multiple accounts
+- Files are processed through an encrypted connection
+- Financial documents are processed in memory
+- Uploaded files are automatically removed after the processing window
+- Documents are not sold or used for advertising
+- No human review is required for normal processing
 
-### Finance Teams
-- Processing expense reports and vendor invoices
-- Consolidating multi-bank transaction data
-- Automating financial reporting workflows
+For details, see the [Privacy Policy](https://www.cleanstmt.com/privacy).
 
-### Tax Professionals
-- Organizing annual financial records for clients
-- Converting years of PDF statements in bulk
-- Preparing audit-ready transaction logs
+## How it works
 
----
+1. **Upload** a bank statement, invoice, receipt, or financial image.
+2. **Extract** structured fields with financial-document OCR.
+3. **Review** the rows and correct any values that need attention.
+4. **Export** to Excel, CSV, QBO, QIF, OFX, Xero, Sage 50 UK, or Tally.
+5. **Import** the clean file into your spreadsheet or accounting workflow.
 
-## 🔥 Why Choose CleanStmt?
+## Supported input documents
 
-| Feature | Generic PDF Converters | CleanStmt |
-|---------|----------------------|-----------|
-| **Merged Cells** | ❌ Breaks formulas | ✅ Single-row transactions |
-| **AI OCR Accuracy** | ❌ Guesses values | ✅ Digit-by-digit extraction |
-| **Multi-Format Export** | ❌ Excel only | ✅ Excel, CSV, QBO, QIF, OFX, IIF |
-| **Bank Optimization** | ❌ Generic parsing | ✅ 38+ banks optimized |
-| **Accounting Integration** | ❌ Manual reformatting | ✅ QuickBooks-ready output |
-| **Data Privacy** | ⚠️ Stored indefinitely | ✅ Auto-delete after 1 hour |
+- Bank statement PDFs
+- Credit card statements
+- Scanned financial documents
+- Invoice PDFs and images
+- Receipts and expense documents
+- PNG, JPG, and JPEG screenshots of tables
+- Multi-page PDF statements
 
----
+## Pricing
 
-## 🛠️ Tech Stack
+### Free tier
 
-- **Frontend:** Next.js 14, React, TailwindCSS
-- **AI Engine:** Claude Vision API (Anthropic)
-- **Export Libraries:** `xlsx-js-style`, `docx`, custom serializers
-- **Hosting:** Vercel (edge functions)
-- **Database:** Supabase (user management, subscription tracking)
+- Free to try
+- No credit card required to get started
+- Limited usage for occasional conversions
+- Core extraction and review workflow included
 
----
+### Professional — $19/month
 
-## 📖 Use Cases
+- **500 document pages per billing month**
+- One processed document page uses one page credit
+- A 10-page PDF uses 10 page credits
+- Page credits reset monthly and unused credits do not roll over
+- Priority processing
+- Batch processing for multiple documents
+- Advanced accounting exports, including Xero, Sage 50 UK, QBO, QIF, OFX, and IIF
 
-### 1. Bank Statement Conversion
-Upload Chase, Wells Fargo, or Bank of America PDFs → Get clean Excel with Date, Description, Amount columns.
+See the current plans at [cleanstmt.com/pricing](https://www.cleanstmt.com/pricing).
 
-### 2. Credit Card Statement Processing
-Convert Amex, Citi, or Capital One statements → Export to QuickBooks or Xero CSV.
+## Who is it for?
 
-### 3. Invoice & Receipt Extraction
-Extract line items from vendor invoices → Structured data for expense tracking.
+### Accountants and bookkeepers
 
-### 4. Multi-Bank Reconciliation
-Process statements from 5+ banks → Unified CSV for cash flow analysis.
+Convert client statements into structured rows for reconciliation, categorization, reporting, and accounting imports.
 
-### 5. Tax Preparation
-Convert years of PDF statements → Audit-ready transaction logs in minutes.
+### Small business owners
 
----
+Turn historical PDF statements and receipts into usable spreadsheets for cash-flow review, expense tracking, and tax preparation.
 
-## 🌐 Supported Formats
+### Finance teams
 
-### Input Formats
-- PDF (native and scanned)
-- PNG, JPG, JPEG (images)
-- Multi-page documents
+Standardize documents from multiple banks and reduce repetitive data entry during month-end close.
 
-### Output Formats
-- **Excel** (.xlsx) — formatted with headers, no merged cells
-- **CSV** — UTF-8 encoded, standard delimiters
-- **QuickBooks** (.qbo, .iif) — direct import ready
-- **Quicken** (.qif) — OFX-compatible
-- **Xero CSV** — matches Xero's transaction import format
-- **Sage 50 UK CSV** — bank reconciliation format
-- **Tally ERP** — accounting ledger format
+### Tax professionals
 
----
+Organize financial records and convert statement archives into files that are easier to review and share.
 
-## 🔒 Privacy & Security
+## CleanStmt vs. generic PDF converters
 
-- ✅ **No long-term data storage** — files auto-delete after 1 hour
-- ✅ **In-memory processing** — data is not written to persistent storage
-- ✅ **HTTPS encryption** — all uploads are encrypted in transit
-- ✅ **No third-party sharing** — your documents are never sold or shared
-- ✅ **Compliant with financial data regulations**
+| Capability | Generic PDF converter | CleanStmt |
+|---|---|---|
+| Financial table recognition | Often text-oriented | Designed for financial tables |
+| OCR for scanned statements | Varies by tool | Built into the extraction workflow |
+| Transaction rows | May split or merge rows | One transaction per row |
+| Spreadsheet structure | Can produce merged cells | Clean, separate columns |
+| Accounting exports | Often requires reformatting | Excel, CSV, QBO, QIF, OFX, Xero, Sage, and Tally options |
+| Uncertain values | May silently guess | Kept visible for review |
+| Multi-page documents | Depends on the converter | Supported for statement workflows |
 
----
+## Example workflows
 
-## 🚧 Roadmap
+- Convert a Chase statement PDF to Excel for reconciliation
+- Convert a Wells Fargo statement to CSV for bookkeeping
+- Extract Amex transactions for expense analysis
+- Convert scanned receipts into spreadsheet rows
+- Prepare QBO or IIF data for QuickBooks workflows
+- Convert historical statements into a consistent format for tax preparation
 
-- [ ] API access for developers
-- [ ] Bulk processing dashboard
-- [ ] Custom export templates
-- [ ] Integration with Zapier & Make
-- [ ] Mobile app (iOS & Android)
-- [ ] Multi-language support
-
----
-
-## 🙋 FAQ
+## Frequently asked questions
 
 ### Is CleanStmt free?
-Yes, we offer a **free tier with usage limits**. No credit card required to start. Upgrade to Pro ($19/month) for unlimited conversions.
 
-### What banks do you support?
-We support 38+ major banks including Chase, Bank of America, Wells Fargo, Citi, Capital One, US Bank, PNC, TD Bank, Truist, and more. See the full list at [cleanstmt.com/banks](https://www.cleanstmt.com).
+CleanStmt offers a free tier with limited usage. No credit card is required to try the service. Paid users can upgrade to the Professional plan for $19/month.
 
-### Can I convert scanned statements?
-Yes! Our AI OCR works with both native PDFs and scanned images.
+### How does the Professional plan count usage?
 
-### Do you store my data?
-No. Files are processed in-memory and **auto-deleted after 1 hour**. We don't retain your financial documents.
+The Professional plan uses document pages. One processed PDF or image page uses one page credit, so a 10-page PDF uses 10 credits. Unused page credits reset monthly and do not roll over.
 
-### Can I import results into QuickBooks?
-Yes! Export directly to **QBO** or **IIF** format for seamless QuickBooks import.
+### Can CleanStmt process scanned statements?
 
-### How accurate is the extraction?
-Our AI reads transaction data **digit by digit** and does not guess uncertain values. For best results, use clear, high-resolution PDFs.
+Yes. CleanStmt supports native PDFs as well as scanned PDFs and document images through OCR.
 
----
+### Can I import the output into QuickBooks?
 
-## 📧 Contact & Support
+Yes. Depending on your workflow, you can export QBO or IIF files, or use CSV output for a compatible QuickBooks import process.
 
-- **Website:** [cleanstmt.com](https://www.cleanstmt.com)
-- **Email:** support@cleanstmt.com
-- **GitHub:** [github.com/dis625406542/cleanstmt_pro](https://github.com/dis625406542/cleanstmt_pro)
+### Does CleanStmt preserve transaction amounts?
 
----
+The extraction workflow is designed to read monetary values digit by digit and avoid guessing. Always review the result against the original document before importing financial data.
 
-## 📜 License
+### Does CleanStmt store uploaded documents?
 
-This project is proprietary software. The code in this repository is for demonstration and documentation purposes only.
+Uploaded files are processed for conversion and automatically removed after the processing window. See the [Privacy Policy](https://www.cleanstmt.com/privacy) for details.
 
----
+## Links
 
-## 🌟 Star This Repo
+- **Website:** [https://www.cleanstmt.com](https://www.cleanstmt.com)
+- **Pricing:** [https://www.cleanstmt.com/pricing](https://www.cleanstmt.com/pricing)
+- **Bank converters:** [https://www.cleanstmt.com/convert](https://www.cleanstmt.com/convert)
+- **Support:** [support@cleanstmt.com](mailto:support@cleanstmt.com)
+- **Privacy Policy:** [https://www.cleanstmt.com/privacy](https://www.cleanstmt.com/privacy)
+- **Terms of Service:** [https://www.cleanstmt.com/terms](https://www.cleanstmt.com/terms)
 
-If you find CleanStmt useful, please **star this repo** to help others discover it!
+## License
 
-[![GitHub stars](https://img.shields.io/github/stars/dis625406542/cleanstmt_pro?style=social)](https://github.com/dis625406542/cleanstmt_pro)
+CleanStmt is a proprietary web service. This repository contains product documentation and promotional material; it does not contain the private production application source code.
 
 ---
 
-**Built by an indie maker. Used by accounting professionals worldwide.**
+Built for people who want to spend less time cleaning spreadsheets and more time understanding their financial data.
 
-🚀 **Try CleanStmt for free:** [www.cleanstmt.com](https://www.cleanstmt.com)
+**Try CleanStmt free:** [www.cleanstmt.com](https://www.cleanstmt.com)
